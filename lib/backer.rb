@@ -8,7 +8,8 @@ def initialize(name)
 end
 
 
-def back_project
+def back_project(Project)
+  self.backed_projects << Project
 end
 
 
