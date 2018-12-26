@@ -9,7 +9,7 @@ end
 
 def back_project(project)
   self.backed_projects << project
-  self.backed_projects << name
+  self.backed_projects << self.name
 end
 
 end
