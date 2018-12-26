@@ -9,9 +9,8 @@ end
 
 def back_project(project)
   self.backed_projects << project
-  new = Project.new(project)
-  new.add_backer(self)
-  new
+  proj = Project.new(project)
+  proj.add_backer(self)
 end
 
 end
